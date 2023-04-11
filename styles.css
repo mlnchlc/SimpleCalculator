@@ -1,0 +1,19 @@
+* {
+    background-color: black;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    flex:1;
+    height: 5em;
+    background: green;
+}
+
+button {
+    width: 10px;
+    height: 10px;
+}
