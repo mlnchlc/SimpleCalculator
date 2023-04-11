@@ -1,19 +1,9 @@
-* {
-    background-color: black;
-}
+* {}
 
-.calculator {
-    display: flex;
-    flex-direction: column;
-}
+.display {}
 
-.display {
-    flex:1;
-    height: 5em;
-    background: green;
-}
-
-button {
-    width: 10px;
-    height: 10px;
+@media (min-width: 768px) {
+    .container {
+        width: 600px;
+    }
 }

@@ -4,53 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" src="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
 <body>
-    <div class="calculator">
-        <div class="display"></div>
-        <div class="row1">
-            <button class="e">e</button>
-            <button class="pi">π</button>
-            <button class="left-parentheses">(</button>
-            <button class="right-parentheses">)</button>
-            <button class="percentage">%</button>
-            <button class="backspace">CE</button>
-        </div>
-        <div class="row2">
-            <button class="sine">sin</button>
-            <button class="cosine">cos</button>
-            <button class="seven">7</button>
-            <button class="eight">8</button>
-            <button class="nine">9</button>
-            <button class="divide">÷</button>
-        </div>
-        <div class="row3">
-            <button class="ln">ln</button>
-            <button class="log">log</button>
-            <button class="four">4</button>
-            <button class="five">5</button>
-            <button class="six">6</button>
-            <button class="multiply">×</button>
-        </div>
-        <div class="row4">
-            <button class="tan">tan</button>
-            <button class="square-root">√</button>
-            <button class="one">1</button>
-            <button class="two">2</button>
-            <button class="three">3</button>
-            <button class="substract">-</button>
-        </div>
-        <div class="row5">
-            <button class="factorial">x!</button>
-            <button class="power">xʸ</button>
-            <button class="zero">0</button>
-            <button class="decimal">.</button>
-            <button class="calculate">=</button>
-            <button class="addition">+</button>
+    <div class="container py-5">
+        <div class="card">
+            <div class="card-header text-center">Calculator</div>
+            <div class="card-body">
+                <div class="display h1 rounded bg-light text-end p-2 ">69</div>
+                <div class="row gap-2 p-2">
+                    <button class="col btn btn-light">e</button>
+                    <button class="col btn btn-light">π</button>
+                    <button class="col btn btn-light">(</button>
+                    <button class="col btn btn-light">)</button>
+                    <button class="col btn btn-light">%</button>
+                    <button class="col btn btn-light">CE</button>
+                </div>
+                <div class="row gap-2 p-2">
+                    <button class="col btn btn-light">sin</button>
+                    <button class="col btn btn-light">cos</button>
+                    <button class="col btn btn-outline-primary">7</button>
+                    <button class="col btn btn-outline-primary">8</button>
+                    <button class="col btn btn-outline-primary">9</button>
+                    <button class="col btn btn-light">÷</button>
+                </div>
+                <div class="row gap-2 p-2">
+                    <button class="col btn btn-light">ln</button>
+                    <button class="col btn btn-light">log</button>
+                    <button class="col btn btn-outline-primary">4</button>
+                    <button class="col btn btn-outline-primary">5</button>
+                    <button class="col btn btn-outline-primary">6</button>
+                    <button class="col btn btn-light">×</button>
+                </div>
+                <div class="row gap-2 p-2">
+                    <button class="col btn btn-light">tan</button>
+                    <button class="col btn btn-light">√</button>
+                    <button class="col btn btn-outline-primary">1</button>
+                    <button class="col btn btn-outline-primary">2</button>
+                    <button class="col btn btn-outline-primary">3</button>
+                    <button class="col btn btn-light">-</button>
+                </div>
+                <div class="row gap-2 p-2">
+                    <button class="col btn btn-light">x!</button>
+                    <button class="col btn btn-light">xʸ</button>
+                    <button class="col btn btn-outline-primary">0</button>
+                    <button class="col btn btn-outline-primary">.</button>
+                    <button class="col btn btn-primary">=</button>
+                    <button class=" col btn btn-light">+</button>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
